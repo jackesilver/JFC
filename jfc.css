@@ -36,7 +36,7 @@
 	background-image: url("http://i.dailymail.co.uk/i/pix/2013/03/20/article-2296269-18CD2A09000005DC-885_634x519.jpg");
 	height: 100px;
 	width: 100px;
-	border-radius: 100px;
+	border-radius: 25px;
 	position: relative;
 	float:left;
 	background-size: 100% 100%;

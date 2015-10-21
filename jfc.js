@@ -38,10 +38,10 @@ for (var i = 1; i <= 24; i++) {
 };
 	
 	var redDiv = document.querySelector('.red2');
-	// element.addEventListener("click", gotClicked);
+	// element.addEventListener("click", gotClicked);  --> code is working with w/o this line
 	function gotClicked() {
 		console.log(this);
-		var seatIsReserved = window.confirm("Click 'OK' to reserve" + " " +  + " " + "");
+		var seatIsReserved = window.confirm("Click 'OK' to reserve" + " " + this[i] + " " + "") // how do we pull the div's unique identity?  before that, how do we define the each div so that we can reference it? ;
 				console.log(element);
 				if(seatIsReserved === true) {
 					this.setAttribute("class", "isReserved");
