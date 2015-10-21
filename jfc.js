@@ -38,7 +38,7 @@ for (var i = 1; i <= 24; i++) {
 		} element.addEventListener("click", gotClicked);
 };
 	
-	var redDiv = document.querySelector('.red2');
+	// var redDiv = document.querySelector('.red2');
 	// element.addEventListener("click", gotClicked);  --> code is working with w/o this line
 	function gotClicked() {
 		console.log(this);

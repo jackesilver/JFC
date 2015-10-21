@@ -1,4 +1,5 @@
 .red2{
+	background-image: url("http://www.how-to-draw-funny-cartoons.com/images/cartoon-chair-5.gif");
 	background-color: green; 
 	height: 100px;
 	width: 100px;
@@ -8,11 +9,14 @@
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 10px 10px 10px 10px;
+    margin: 0 auto;
 }
 
 .row{
-	float:left;
-	clear:right;
+	/*float:left;*/
+	/*clear:right;*/
+	width:75%;
+	margin: 0 auto;
 }
 
 #container{
@@ -49,6 +53,8 @@
 	  animation-iteration-count: infinite;
 	  animation-fill-mode: none;
 	  animation-play-state: running;
+	margin: 0 auto;
+
 }
 
 @keyframes stretch {
